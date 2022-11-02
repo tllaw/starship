@@ -1,0 +1,18 @@
+format = """$directory\n$all\n$character"""
+
+[aws]
+disabled = true
+
+[character]
+success_symbol = "[➜](bold green) "
+error_symbol = "[➜](bold red) "
+
+[directory]
+truncation_length = 999
+truncate_to_repo = false
+
+[ruby]
+detect_variables = []
+
+[time]
+disabled = false
